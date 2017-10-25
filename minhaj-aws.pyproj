@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3f6211c3-9a20-486f-a8b2-67e8170326eb}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile>application.py</StartupFile>
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId />
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="requirements.txt" />
+    <Content Include="static\content\styles.css" />
+    <Content Include="static\favicon.ico" />
+    <Content Include="static\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\images\github-chart.png" />
+    <Content Include="static\images\profile.png" />
+    <Content Include="static\images\projects\project-1.png" />
+    <Content Include="static\images\projects\project-2.jpg" />
+    <Content Include="static\images\projects\project-2.png" />
+    <Content Include="static\images\projects\project-3.png" />
+    <Content Include="static\images\projects\project-4.png" />
+    <Content Include="static\images\projects\project-5.png" />
+    <Content Include="static\images\projects\project-featured.png" />
+    <Content Include="static\plugins\bootstrap\css\bootstrap-theme.css" />
+    <Content Include="static\plugins\bootstrap\css\bootstrap-theme.min.css" />
+    <Content Include="static\plugins\bootstrap\css\bootstrap.css" />
+    <Content Include="static\plugins\bootstrap\css\bootstrap.min.css" />
+    <Content Include="static\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="static\plugins\bootstrap\js\bootstrap.js" />
+    <Content Include="static\plugins\bootstrap\js\bootstrap.min.js" />
+    <Content Include="static\plugins\bootstrap\js\npm.js" />
+    <Content Include="static\plugins\font-awesome\css\font-awesome.css" />
+    <Content Include="static\plugins\font-awesome\css\font-awesome.min.css" />
+    <Content Include="static\plugins\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="static\plugins\font-awesome\HELP-US-OUT.txt" />
+    <Content Include="static\plugins\github-activity\Gruntfile.js" />
+    <Content Include="static\plugins\github-activity\src\github-activity.css" />
+    <Content Include="static\plugins\github-activity\src\github-activity.js" />
+    <Content Include="static\plugins\github-calendar\dist\github-calendar.css" />
+    <Content Include="static\plugins\github-calendar\dist\github-calendar.min.js" />
+    <Content Include="static\plugins\github-calendar\example\css\style.css" />
+    <Content Include="static\plugins\github-calendar\example\index.html" />
+    <Content Include="static\plugins\github-calendar\example\js\main.js" />
+    <Content Include="static\plugins\github-calendar\lib\index.js" />
+    <Content Include="static\plugins\jquery-1.11.3.min.js" />
+    <Content Include="static\plugins\jquery-rss\dist\jquery.rss.min.js" />
+    <Content Include="static\plugins\jquery-rss\examples\accordion.html" />
+    <Content Include="static\plugins\jquery-rss\examples\custom-dates.html" />
+    <Content Include="static\plugins\jquery-rss\examples\ezypay.html" />
+    <Content Include="static\plugins\jquery-rss\examples\zotero.html" />
+    <Content Include="static\plugins\jquery-rss\gulpfile.js" />
+    <Content Include="static\plugins\jquery-rss\index.html" />
+    <Content Include="static\plugins\jquery-rss\lib\jquery-1.6.4.min.js" />
+    <Content Include="static\plugins\jquery-rss\spec\jquery.rss.spec.js" />
+    <Content Include="static\plugins\jquery-rss\src\jquery.rss.js" />
+    <Content Include="static\scripts\main.js" />
+    <Content Include="templates\index.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="application.py" />
+    <Compile Include="application\__init__.py" />
+    <Compile Include="config.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="application" />
+    <Folder Include="static" />
+    <Folder Include="static\content" />
+    <Folder Include="static\fonts" />
+    <Folder Include="static\images" />
+    <Folder Include="static\images\projects" />
+    <Folder Include="static\plugins" />
+    <Folder Include="static\plugins\bootstrap\css" />
+    <Folder Include="static\plugins\bootstrap\fonts" />
+    <Folder Include="static\plugins\bootstrap\js" />
+    <Folder Include="static\plugins\font-awesome" />
+    <Folder Include="static\plugins\font-awesome\css" />
+    <Folder Include="static\plugins\font-awesome\fonts" />
+    <Folder Include="static\plugins\github-activity" />
+    <Folder Include="static\plugins\github-activity\src" />
+    <Folder Include="static\plugins\github-calendar\dist" />
+    <Folder Include="static\plugins\github-calendar\example" />
+    <Folder Include="static\plugins\github-calendar\example\css" />
+    <Folder Include="static\plugins\github-calendar\example\js" />
+    <Folder Include="static\plugins\github-calendar\lib" />
+    <Folder Include="static\plugins\jquery-rss" />
+    <Folder Include="static\plugins\jquery-rss\dist" />
+    <Folder Include="static\plugins\jquery-rss\examples" />
+    <Folder Include="static\plugins\jquery-rss\lib" />
+    <Folder Include="static\plugins\jquery-rss\spec" />
+    <Folder Include="static\plugins\jquery-rss\src" />
+    <Folder Include="static\scripts" />
+    <Folder Include="templates" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>
